@@ -11,4 +11,57 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    background-color: rgb(216, 215, 176);
+    color: #445361;
+    text-align: center;
+    
+
+}
+
+header {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.title {
+    text-transform: uppercase;
+    
+}
+
+.questions {
+    font-size: 35px;
+    margin-top: 130px;
+}
+
+.playground {
+    background-color: #ffefa7;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+  
+}
+
+.scoreground {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.scores {
+    display: inline-block;
+    padding: 25px;
+}
+
+button  {
+        width: 220px;
+        height: 60px;
+        font-family: oswald, sans-serif;
+        color: black;
+        font-size: x-large;
+        background-color: grey;
 }
