@@ -50,13 +50,23 @@ header {
     margin-bottom: 60px;
 }
 
-.submit {
-    width: 220px;
-    height: 60px;
-    font-family: oswald, sans-serif;
+.btn {
+    background: white;
     color: black;
-    font-size: x-large;
-    background-color: grey;
+    font-weight:500;
+    width:100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background: #222;
+  color: white;
+  transition: all 0.3s;
 }
 
 /*.truebtn {
