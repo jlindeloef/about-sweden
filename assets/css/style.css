@@ -14,24 +14,27 @@ body {
     background-color: rgb(216, 215, 176);
     color: #445361;
     text-align: center;
-    
+
 
 }
 
 header {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: x-large;
+    margin-top: 50px;
+    /*font-size: 2.5rem;*/
 }
 
 .title {
     text-transform: uppercase;
-    
+    font-size: 65px;
 }
 
-.questions {
+/*.questions {
     font-size: 35px;
     margin-top: 130px;
-}
+    text-align: center;
+}*/
 
 .playground {
     background-color: #ffefa7;
@@ -43,25 +46,36 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
-  
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
+
+.submit {
+    width: 220px;
+    height: 60px;
+    font-family: oswald, sans-serif;
+    color: black;
+    font-size: x-large;
+    background-color: grey;
+}
+
+/*.truebtn {
+    margin-bottom: 10px; use
+    /*margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
 
 .scoreground {
     margin: 5px auto;
     width: 60%;
-    font-size: 1.2rem;
+    font-size: 20px;
+
 }
 
-.scores {
+/*.scores {
     display: inline-block;
-    padding: 25px;
-}
-
-button  {
-        width: 220px;
-        height: 60px;
-        font-family: oswald, sans-serif;
-        color: black;
-        font-size: x-large;
-        background-color: grey;
-}
+    padding: 15px;
+    font-family: oswald, sans-serif;
+}*/
